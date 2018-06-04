@@ -4,8 +4,6 @@ var fs = require('fs');
 var stringifyFile;//nie wiem czy to jest dobrze
 var bodyParser = require('body-parser');
 
-
-
 app.use(bodyParser.json());
 
 app.get('/getNote', function (req, res) {
